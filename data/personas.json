@@ -1,0 +1,15 @@
+{
+    "personas": [{
+        "apellidos": "Vega Tejada",
+        "nombre": "Juan José",
+        "edad": 30
+    }, {
+        "apellidos": "Uribe Tapia",
+        "nombre": "Andrea",
+        "edad": 27
+    }, {
+        "apellidos": "Zapata Quispe",
+        "nombre": "Luis Adrián",
+        "edad": 29
+    }]
+}
