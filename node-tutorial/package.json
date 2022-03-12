@@ -1,0 +1,19 @@
+{
+    "name": "tutorial",
+    "version": "1.0.0",
+    "description": "Este es un proyecto introductorio a Node.js.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "serve": "nodemon src/prueba_nodemon.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    },
+    "dependencies": {
+        "morgan": "^1.10.0"
+    }
+}

@@ -1,0 +1,7 @@
+npm init => Inicializa un proyecto de Node.
+npm init -y => Inicializa un proyecto de Node, aceptando todo por defecto.
+
+-P, --save-prod: Package will appear in your dependencies. This is the default unless -D or -O are present.
+-D, --save-dev: Package will appear in your devDependencies.
+-O, --save-optional: Package will appear in your optionalDependencies.
+
