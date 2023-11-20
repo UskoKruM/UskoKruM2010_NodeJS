@@ -3,17 +3,20 @@
     "version": "1.0.0",
     "description": "Este es un proyecto introductorio a Node.js.",
     "main": "index.js",
+    "type": "module",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "serve": "nodemon src/prueba_nodemon.js"
+        "dev": "nodemon src/prueba_fetch.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "devDependencies": {
-        "nodemon": "^2.0.15"
+        "nodemon": "^3.0.1"
     },
     "dependencies": {
-        "morgan": "^1.10.0"
+        "axios": "^1.6.2",
+        "morgan": "^1.10.0",
+        "node-fetch": "^3.3.2"
     }
 }
